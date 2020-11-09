@@ -8,7 +8,7 @@ import java.util.List;
 
 public class UserRepository {
 
-    private final FakeApiService apiService; // TODO: A utiliser
+    private final FakeApiService apiService;
 
     public UserRepository(FakeApiService apiService) {
         this.apiService = apiService;
